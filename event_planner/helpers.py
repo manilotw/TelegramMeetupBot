@@ -11,7 +11,7 @@ def is_about_command(message):
 
 
 def is_view_questions_command(message):
-    return message.text == "Посмотреть вопросы"
+    return message.text == "📜\nПосмотреть вопросы"
 
 
 def is_ask_question_command(message):
